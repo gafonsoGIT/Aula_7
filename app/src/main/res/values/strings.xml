@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">Aula_7</string>
+  <string name="app_name">Aula_7</string>
+  <string name="hint_word">Pessoa...</string>
+  <string name="button_save">Guardar</string>
+  <string name="empty_not_saved">A pessoa não foi guardada, pois nada foi inserido.</string>
+  <string name="add_word">Adicionar pessoa</string>
 </resources>

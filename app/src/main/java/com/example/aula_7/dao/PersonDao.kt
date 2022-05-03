@@ -15,7 +15,7 @@ interface PersonDao {
   fun getOrderedPeople(): Flow<List<Person>>
 
   @Insert(onConflict = IGNORE)
-  fun insert(person: Person)
+  suspend fun insert(person: Person)
 
   @Query("DELETE FROM person_table")
   suspend fun deleteAll()

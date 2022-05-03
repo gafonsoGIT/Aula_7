@@ -13,6 +13,5 @@ class PersonRepository(private val personDao: PersonDao) {
   @WorkerThread
   suspend fun insert (person: Person) {
     personDao.insert(person)
-
   }
 }
